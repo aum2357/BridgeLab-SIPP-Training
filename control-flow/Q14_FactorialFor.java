@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Q14_FactorialFor {
+public class FactorialFor {
     public static void main(String...rgs) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt(), factorial = 1;
