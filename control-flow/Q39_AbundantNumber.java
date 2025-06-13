@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Q39_AbundantNumber {
+public class AbundantNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt(), sum = 0;
