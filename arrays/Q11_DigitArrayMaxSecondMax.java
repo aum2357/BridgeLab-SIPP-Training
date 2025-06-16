@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q11_DigitArrayMaxSecondMax {
+public class DigitArrayMaxSecondMax {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
