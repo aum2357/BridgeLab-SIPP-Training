@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q15_DigitFrequency {
+public class DigitFrequency {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
