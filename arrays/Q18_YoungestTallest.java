@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q18_YoungestTallest {
+public class YoungestTallest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] names = {"Amar", "Akbar", "Anthony"};
