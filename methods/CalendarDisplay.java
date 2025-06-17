@@ -41,7 +41,7 @@ public class CalendarDisplay {
         System.out.println();
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Scanner scanner = new Scanner(System.in);
         int month = scanner.nextInt();
         int year = scanner.nextInt();
