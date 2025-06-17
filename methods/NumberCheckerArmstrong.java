@@ -60,7 +60,7 @@ public class NumberCheckerArmstrong {
         return new int[]{smallest, secondSmallest};
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         int[] digits = getDigits(number);
