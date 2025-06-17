@@ -17,7 +17,7 @@ public class FriendsComparison {
         return maxIndex;
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Scanner scanner = new Scanner(System.in);
         int[] ages = new int[3];
         double[] heights = new double[3];
