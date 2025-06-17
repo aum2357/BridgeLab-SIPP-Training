@@ -8,7 +8,7 @@ public class ChocolateDivider {
         return result;
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Scanner scanner = new Scanner(System.in);
         int numberOfChocolates = scanner.nextInt();
         int numberOfChildren = scanner.nextInt();
