@@ -41,7 +41,7 @@ public class NumberCheckerSpecial {
         return number % 7 == 0 || number % 10 == 7;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         System.out.println("Is Prime: " + isPrime(number));
