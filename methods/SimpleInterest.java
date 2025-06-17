@@ -5,7 +5,7 @@ public class SimpleInterest {
         return (principal * rate * time) / 100;
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Scanner scanner = new Scanner(System.in);
         double principal = scanner.nextDouble();
         double rate = scanner.nextDouble();
