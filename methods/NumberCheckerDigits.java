@@ -43,7 +43,7 @@ public class NumberCheckerDigits {
         return false;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         System.out.println("Digit count: " + countDigits(number));
