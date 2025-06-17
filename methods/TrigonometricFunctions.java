@@ -10,7 +10,7 @@ public class TrigonometricFunctions {
         return result;
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Scanner scanner = new Scanner(System.in);
         double angle = scanner.nextDouble();
         double[] results = calculateTrigonometricFunctions(angle);
