@@ -35,7 +35,7 @@ public class FootballTeamHeights {
         return max;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         int[] heights = generateHeights();
         System.out.println("Heights: " + java.util.Arrays.toString(heights));
         System.out.println("Shortest: " + shortestHeight(heights));
