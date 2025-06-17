@@ -6,7 +6,7 @@ public class SpringSeason {
         return true;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         int month = Integer.parseInt(args[0]);
         int day = Integer.parseInt(args[1]);
         System.out.println(isSpringSeason(month, day) ? "It's a Spring Season" : "Not a Spring Season");
