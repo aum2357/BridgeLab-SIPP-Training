@@ -52,7 +52,7 @@ public class NumberCheckerTypes {
         return sum == number;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         System.out.println("Is Perfect: " + isPerfect(number));
