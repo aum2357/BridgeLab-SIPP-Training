@@ -13,7 +13,7 @@ public class CollinearPoints {
         return Math.abs(area) < 1e-10;
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Scanner scanner = new Scanner(System.in);
         double x1 = scanner.nextDouble();
         double y1 = scanner.nextDouble();
