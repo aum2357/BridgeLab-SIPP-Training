@@ -70,7 +70,7 @@ public class MatrixAdvanced {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Scanner scanner = new Scanner(System.in);
         int size = scanner.nextInt();
         int[][] matrix = generateMatrix(size, size);
