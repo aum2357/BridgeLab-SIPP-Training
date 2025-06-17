@@ -21,7 +21,7 @@ public class UnitConverterLength {
         return inches * 2.54;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
         double yards = scanner.nextDouble();
         System.out.println("Feet: " + convertYardsToFeet(yards));
