@@ -42,7 +42,7 @@ public class FactorsCalculator {
         return product;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         int[] factors = findFactors(number);
