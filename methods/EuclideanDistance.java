@@ -11,7 +11,7 @@ public class EuclideanDistance {
         return new double[]{m, b};
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Scanner scanner = new Scanner(System.in);
         double x1 = scanner.nextDouble();
         double y1 = scanner.nextDouble();
