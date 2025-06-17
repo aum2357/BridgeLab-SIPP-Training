@@ -35,7 +35,7 @@ public class EmployeeBonus {
         System.out.println("Total Bonus: " + totalBonus);
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         double[][] data = generateEmployeeData(10);
         double[][] bonusData = calculateBonus(data);
         displaySummary(data, bonusData);
