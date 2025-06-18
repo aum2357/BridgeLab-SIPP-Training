@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q4_NumberFormatDemo {
+public class NumberFormatDemo {
     // Method to generate NumberFormatException
     public static void generateNumberFormat(String text) {
         // This will throw NumberFormatException if text is not a valid integer
