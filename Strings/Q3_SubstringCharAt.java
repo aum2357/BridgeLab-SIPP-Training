@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q3_SubstringCharAt {
+public class SubstringCharAt {
     // Method to create substring using charAt
     public static String substringByCharAt(String str, int start, int end) {
         StringBuilder sb = new StringBuilder();
