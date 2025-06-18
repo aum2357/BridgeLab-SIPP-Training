@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q8_ToUpperCaseCompare {
+public class ToUpperCaseCompare {
     // Method to convert string to uppercase using charAt
     public static String toUpperCaseManual(String str) {
         StringBuilder sb = new StringBuilder();
