@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q17_ShortestLongestWord {
+public class ShortestLongestWord {
     // Method to split text into words using charAt
     public static String[] splitByCharAt(String str) {
         int len = getLength(str);
