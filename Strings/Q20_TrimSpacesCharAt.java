@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q20_TrimSpacesCharAt {
+public class TrimSpacesCharAt {
     // Method to trim leading and trailing spaces using charAt
     public static int[] trimIndices(String str) {
         int len = getLength(str);
