@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q11_SplitTextCompare {
+public class SplitTextCompare {
     // Method to find length without using length()
     public static int getLength(String str) {
         int count = 0;
