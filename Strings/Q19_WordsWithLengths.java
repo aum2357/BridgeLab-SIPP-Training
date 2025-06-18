@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q19_WordsWithLengths {
+public class WordsWithLengths {
     // Method to split text into words using charAt
     public static String[] splitByCharAt(String str) {
         int len = getLength(str);
