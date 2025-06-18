@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Q18_RockPaperScissors {
+public class RockPaperScissors {
     // Method to get computer choice
     public static String getComputerChoice() {
         int n = new Random().nextInt(3);
