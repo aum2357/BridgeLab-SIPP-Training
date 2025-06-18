@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Q12_StudentVoting {
+public class StudentVoting {
     // Method to generate random ages for n students
     public static int[] generateAges(int n) {
         int[] ages = new int[n];
