@@ -1,7 +1,7 @@
 import java.time.*;
 
 public class Problem1_TimeZones {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         ZonedDateTime gmt = ZonedDateTime.now(ZoneId.of("GMT"));
         ZonedDateTime ist = ZonedDateTime.now(ZoneId.of("Asia/Kolkata"));
         ZonedDateTime pst = ZonedDateTime.now(ZoneId.of("America/Los_Angeles"));
