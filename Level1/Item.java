@@ -19,7 +19,7 @@ public class Item {
         return price * quantity;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Item item = new Item("A001", "Laptop", 999.99);
         item.displayDetails();
         System.out.println("Total cost for 2 items: $" + item.calculateTotalCost(2));
