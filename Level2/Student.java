@@ -24,7 +24,7 @@ public class Student {
         System.out.println("Grade: " + calculateGrade());
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Student student = new Student("Ayush", 101, 85.5);
         student.displayDetails();
     }
