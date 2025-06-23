@@ -24,7 +24,7 @@ public class PalindromeChecker {
         System.out.println("Is Palindrome: " + isPalindrome());
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         PalindromeChecker checker = new PalindromeChecker("Racecar");
         checker.displayResult();
     }
