@@ -33,7 +33,7 @@ public class BankAccount {
         System.out.println("Current Balance: $" + balance);
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         BankAccount account = new BankAccount("John Doe", "1234567890", 1000.0);
         account.displayBalance();
         account.deposit(500.0);
