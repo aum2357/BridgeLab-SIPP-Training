@@ -38,7 +38,7 @@ public class CartItem {
         System.out.println("Total Cost: $" + calculateTotalCost());
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         CartItem item = new CartItem("Headphones", 59.99, 1);
         item.displayDetails();
         item.addItem(2);
