@@ -19,7 +19,7 @@ public class Circle {
         System.out.println("Circumference: " + String.format("%.2f", calculateCircumference()));
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Circle circle = new Circle(5.0);
         circle.displayDetails();
     }
