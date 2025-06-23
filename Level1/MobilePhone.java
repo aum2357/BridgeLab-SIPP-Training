@@ -15,7 +15,7 @@ public class MobilePhone {
         System.out.println("Price: $" + price);
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         MobilePhone phone = new MobilePhone("Samsung", "Galaxy S21", 799.99);
         phone.displayDetails();
     }
