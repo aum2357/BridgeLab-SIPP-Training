@@ -15,7 +15,7 @@ public class Employee {
         System.out.println("Salary: $" + salary);
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Employee employee = new Employee("John Doe", 101, 50000.0);
         employee.displayDetails();
     }
