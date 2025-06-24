@@ -20,7 +20,7 @@ public class LibraryBook {
         return false;
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         LibraryBook book = new LibraryBook("Data Structures", "Jane Smith", 399.99, true);
         System.out.println("Book available: " + book.availability);
         book.borrowBook();
