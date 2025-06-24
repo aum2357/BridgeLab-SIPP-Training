@@ -22,7 +22,7 @@ public class HotelBooking {
         this.nights = other.nights;
     }
 
-    public static void main(String[] args) {
+    public static void main(String args) {
         HotelBooking hb1 = new HotelBooking("Bob", "Deluxe", 3);
         HotelBooking hb2 = new HotelBooking(hb1);
         System.out.println("Original Booking: " + hb1.guestName + ", " + hb1.roomType + ", " + hb1.nights);
