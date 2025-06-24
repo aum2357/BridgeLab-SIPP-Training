@@ -13,7 +13,7 @@ public class Person {
         this.age = other.age;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Person p1 = new Person("Alice", 30);
         Person p2 = new Person(p1);
         System.out.println("Original Person: " + p1.name + ", " + p1.age);
