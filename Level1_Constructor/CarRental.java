@@ -14,7 +14,7 @@ public class CarRental {
         return rentalDays * ratePerDay;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         CarRental rental = new CarRental("Charlie", "Honda City", 5);
         double cost = rental.calculateTotalCost(800);
         System.out.println("Customer: " + rental.customerName + ", Model: " + rental.carModel + ", Days: " + rental.rentalDays);
