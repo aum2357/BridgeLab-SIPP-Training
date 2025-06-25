@@ -25,7 +25,7 @@ public class Vehicle {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Vehicle v1 = new Vehicle("KA01AB1234", "Ramesh", "Car");
         Vehicle v2 = new Vehicle("KA02CD5678", "Suresh", "Bike");
 
