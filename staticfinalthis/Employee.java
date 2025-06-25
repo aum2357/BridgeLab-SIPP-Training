@@ -2,11 +2,11 @@ package keyworddemo.staticfinalthis;
 
 class Employee {
     static String companyName = "Tech Solutions Pvt Ltd";
-    static int totalEmployees = 0;
+    static int totalEmployees = 0; // static var will shared among multiple objects
 
-    final int id;
+    final int id; // constant keyword
     String name, designation;
-
+// param.. constructor 
     public Employee(int id, String name, String designation) {
         this.id = id;
         this.name = name;
