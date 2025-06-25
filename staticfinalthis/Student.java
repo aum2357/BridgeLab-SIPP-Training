@@ -28,7 +28,7 @@ public class Student {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Student s1 = new Student(1, "Neha", 'A');
         Student s2 = new Student(2, "Arjun", 'B');
 
