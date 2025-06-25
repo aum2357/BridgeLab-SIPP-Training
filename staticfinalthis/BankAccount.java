@@ -1,5 +1,5 @@
 package keyworddemo.staticfinalthis;
-
+// demo of static final and this keyword
 public class BankAccount {
 	static String BankName="State Bank Of India";
 	static int totalaccounts=0;
