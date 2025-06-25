@@ -7,14 +7,14 @@ public class Product {
     String productName;
     double price;
     int quantity;
-
+// param.. constuctor demo
     public Product(int productID, String productName, double price, int quantity) {
         this.productID = productID;
         this.productName = productName;
         this.price = price;
         this.quantity = quantity;
     }
-
+// static function demo
     static void updateDiscount(double newDiscount) {
         discount = newDiscount;
         System.out.println("Updated Discount: " + discount + "%");
