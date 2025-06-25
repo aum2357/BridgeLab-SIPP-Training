@@ -3,12 +3,13 @@ package keyworddemo.staticfinalthis;
 public class Patient {
     static String hospitalName = "City Care Hospital";
     static int totalPatients = 0;
-
+  // constant var: cannot be modified later
     final int patientID;
     String name;
     int age;
     String ailment;
-
+// param.. constructor
+    
     public Patient(int patientID, String name, int age, String ailment) {
         this.patientID = patientID;
         this.name = name;
