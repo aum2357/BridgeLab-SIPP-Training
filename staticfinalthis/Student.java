@@ -7,14 +7,14 @@ public class Student {
     final int rollNumber;
     String name;
     char grade;
-
+// param.. constructor
     public Student(int rollNumber, String name, char grade) {
         this.rollNumber = rollNumber;
         this.name = name;
         this.grade = grade;
         totalStudents++;
     }
-
+// static func demo
     static void displayTotalStudents() {
         System.out.println("Total Enrolled Students: " + totalStudents);
     }
