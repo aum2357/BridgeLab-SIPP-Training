@@ -1,10 +1,10 @@
 package keyworddemo.staticfinalthis;
-
+// demo of static ,this final keyword
 public class Book {
 	static String libraryName="Central Library";
 	final String isbn;
 	String author,title;
-	
+	//parametarized constructor
 	Book(String author,String title,String isbn){
 		this.isbn=isbn;
 		this.author=author;
