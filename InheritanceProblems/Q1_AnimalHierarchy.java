@@ -57,7 +57,7 @@ class Bird extends Animal {
 }
 
 public class Q1_AnimalHierarchy {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Animal[] animals = {
             new Dog("Buddy", 3),
             new Cat("Whiskers", 2),
