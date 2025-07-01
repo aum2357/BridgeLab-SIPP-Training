@@ -37,7 +37,7 @@ class PetrolVehicle extends Vehicle implements Refuelable {
 }
 
 public class Q11_VehicleHybridInheritance {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         ElectricVehicle ev = new ElectricVehicle(150, "Tesla Model 3");
         PetrolVehicle pv = new PetrolVehicle(180, "Honda City");
         ev.charge();
