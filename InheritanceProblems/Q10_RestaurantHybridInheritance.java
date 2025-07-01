@@ -38,7 +38,7 @@ class Waiter extends Person implements Worker {
 }
 
 public class Q10_RestaurantHybridInheritance {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Worker chef = new Chef("Gordon", 1);
         Worker waiter = new Waiter("John", 2);
         chef.performDuties();
