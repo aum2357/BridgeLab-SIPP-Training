@@ -38,7 +38,7 @@ class PaidOnlineCourse extends OnlineCourse {
 }
 
 public class Q7_EducationalCourseHierarchy {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         PaidOnlineCourse poc = new PaidOnlineCourse("Java Programming", 8, "Udemy", true, 1999, 20);
         poc.displayDetails();
     }
