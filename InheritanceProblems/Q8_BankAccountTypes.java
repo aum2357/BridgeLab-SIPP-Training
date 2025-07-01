@@ -51,7 +51,7 @@ class FixedDepositAccount extends BankAccount {
 }
 
 public class Q8_BankAccountTypes {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         SavingsAccount sa = new SavingsAccount("SA123", 10000, 4.5);
         CheckingAccount ca = new CheckingAccount("CA456", 5000, 2000);
         FixedDepositAccount fda = new FixedDepositAccount("FDA789", 20000, 12);
