@@ -51,7 +51,7 @@ class Staff extends Person {
 }
 
 public class Q9_SchoolSystemRoles {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Teacher t = new Teacher("Mr. Smith", 40, "Mathematics");
         Student s = new Student("Alice", 16, 10);
         Staff st = new Staff("Mrs. Brown", 35, "Administration");
