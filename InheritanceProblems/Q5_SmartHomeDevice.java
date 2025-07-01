@@ -31,7 +31,7 @@ class Thermostat extends Device {
 }
 
 public class Q5_SmartHomeDevice {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Thermostat t = new Thermostat("T1001", "ON", 22.5);
         t.displayStatus();
     }
