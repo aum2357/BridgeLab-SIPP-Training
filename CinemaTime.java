@@ -48,7 +48,7 @@ public class CinemaTime {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         CinemaTime manager = new CinemaTime();
         try {
             manager.addMovie("Inception", "14:30");
