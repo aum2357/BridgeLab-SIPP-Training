@@ -46,7 +46,7 @@ class DeliveredOrder extends ShippedOrder {
 }
 
 public class Q6_OnlineRetailOrder {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Order o1 = new Order("ORD123", LocalDate.of(2025, 7, 1));
         ShippedOrder o2 = new ShippedOrder("ORD124", LocalDate.of(2025, 7, 2), "TRK987");
         DeliveredOrder o3 = new DeliveredOrder("ORD125", LocalDate.of(2025, 7, 3), "TRK654", LocalDate.of(2025, 7, 5));
