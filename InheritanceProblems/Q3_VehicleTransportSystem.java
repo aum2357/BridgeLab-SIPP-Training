@@ -61,7 +61,7 @@ class Motorcycle extends Vehicle {
 }
 
 public class Q3_VehicleTransportSystem {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Vehicle[] vehicles = {
             new Car(180, "Petrol", 5),
             new Truck(120, "Diesel", 10.5),
