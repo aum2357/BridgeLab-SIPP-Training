@@ -20,7 +20,7 @@ class Book {
 }
 
 class BookBuddy {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Book> books = new ArrayList<>();
         int option;
