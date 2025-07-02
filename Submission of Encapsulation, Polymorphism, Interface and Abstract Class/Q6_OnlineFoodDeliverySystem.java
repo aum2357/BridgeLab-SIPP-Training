@@ -59,7 +59,7 @@ class FoodDeliverySystem {
 }
 
 public class Q6_OnlineFoodDeliverySystem {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         FoodItem[] foodItems = {
             new VegItem("Paneer", 150, 2),
             new NonVegItem("Chicken", 200, 1)
