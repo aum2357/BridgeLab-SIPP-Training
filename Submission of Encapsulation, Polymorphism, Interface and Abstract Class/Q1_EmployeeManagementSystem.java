@@ -74,7 +74,7 @@ class PartTimeEmployee extends Employee implements Department {
 }
 
 public class Q1_EmployeeManagementSystem {
-    public static void main(String[] args) {
+    public static void main(String...args) {
         Employee[] employees = new Employee[2];
         employees[0] = new FullTimeEmployee(1, "Alice", 50000);
         employees[1] = new PartTimeEmployee(2, "Bob", 200, 20);
