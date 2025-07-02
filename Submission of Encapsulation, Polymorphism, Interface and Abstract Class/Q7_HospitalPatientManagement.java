@@ -65,7 +65,7 @@ class HospitalManagementSystem {
 }
 
 public class Q7_HospitalPatientManagement {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Patient[] patients = {
             new InPatient(1, "Alice", 30, 1000),
             new OutPatient(2, "Bob", 25, 500)
