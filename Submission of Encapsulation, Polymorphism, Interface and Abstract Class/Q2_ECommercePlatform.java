@@ -56,7 +56,7 @@ class ECommercePlatform {
 }
 
 public class Q2_ECommercePlatform {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Product[] products = {
             new Electronics(1, "Laptop", 50000),
             new Clothing(2, "Shirt", 2000),
