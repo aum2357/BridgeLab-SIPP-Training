@@ -73,7 +73,7 @@ class LibraryManagementSystem {
 }
 
 public class Q5_LibraryManagementSystem {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         LibraryItem[] items = {
             new Book(1, "Java", "James"),
             new Magazine(2, "Tech Today", "Editor"),
