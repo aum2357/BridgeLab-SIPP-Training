@@ -60,7 +60,7 @@ class VehicleRentalSystem {
 }
 
 public class Q3_VehicleRentalSystem {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Vehicle[] vehicles = {
             new Car("C123", 1000, "P1001"),
             new Bike("B456", 300, "P2002"),
