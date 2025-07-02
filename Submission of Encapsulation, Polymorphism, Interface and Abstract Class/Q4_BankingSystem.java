@@ -51,7 +51,7 @@ class BankingSystem {
 }
 
 public class Q4_BankingSystem {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         BankAccount[] accounts = {
             new SavingsAccount("S111", "John", 15000),
             new CurrentAccount("C222", "Jane", 25000)
