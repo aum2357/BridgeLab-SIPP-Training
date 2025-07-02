@@ -70,7 +70,7 @@ class RideHailingApp {
 }
 
 public class Q8_RideHailingApplication {
-    public static void main(String[] args) {
+    public static void main(String... args) {
         RideVehicle[] rides = {
             new RideCar("V1", "Driver1", 15),
             new RideBike("V2", "Driver2", 10),
