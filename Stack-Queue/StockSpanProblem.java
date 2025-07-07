@@ -19,7 +19,7 @@ class StockSpanProblem {
         return span;
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         int[] prices = { 100, 80, 60, 70, 60, 75, 85 };
         int[] span = calculateSpan(prices);
 
