@@ -33,7 +33,7 @@ class SortStackUsingRecursion {
         System.out.println();
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         Stack<Integer> stack = new Stack<>();
         stack.push(34);
         stack.push(3);
