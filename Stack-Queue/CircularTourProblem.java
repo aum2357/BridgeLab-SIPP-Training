@@ -61,7 +61,7 @@ class CircularTourProblem {
         return (capacity + deficit >= 0) ? start : -1;
     }
 
-    public static void main(String[] args) {
+    public static void main(String... args) {
         PetrolPump[] pumps = {
                 new PetrolPump(4, 6),
                 new PetrolPump(6, 5),
