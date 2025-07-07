@@ -35,7 +35,7 @@ class QueueUsingStacks {
         return stack2.peek();
     }
 
-    public static void main(String[] args) {
+    public static void main(String...args) {
         QueueUsingStacks queue = new QueueUsingStacks();
         queue.enqueue(1);
         queue.enqueue(2);
